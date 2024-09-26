@@ -11,6 +11,7 @@ class LoginPage:
     PASSWORD_FIELD = (By.NAME, "password")
     LOGIN_BUTTON = (By.ID, "login-button")
     BURGER_BUTTON = (By.CLASS_NAME, 'bm-burger-button')
+    PRODUCT_ITEM = (By.ID, 'item_4_img_link')
     LOGOUT_BUTTON = (By.ID, 'logout_sidebar_link')
 
     # Methods to interact with the login page
@@ -24,6 +25,9 @@ class LoginPage:
 
     def click_login(self):
         self.driver.find_element(*self.LOGIN_BUTTON).send_keys(Keys.ENTER)
+
+    def click_product(self):
+        self.driver.find_element(*self.PRODUCT_ITEM).send_keys(Keys.ENTER)
 
     def login(self, username, password):
         self.enter_username(username)
