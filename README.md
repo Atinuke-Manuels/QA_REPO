@@ -27,7 +27,7 @@ This project is a test automation suite using Selenium WebDriver and Pytest for 
 ## Installation
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/selenium-qa-automation.git
+   git clone [https://github.com/your-username/selenium-qa-automation.git](https://github.com/Atinuke-Manuels/QA_REPO.git)
    cd selenium-qa-automation
    ```
 
